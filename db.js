@@ -2,11 +2,11 @@ const mysql = require('mysql');
 
 // MySQL database configuration
 const db = mysql.createConnection({
-    host : '141.94.50.209',
-    user : 'sqlp4549',
-    password : 'Tf#$gf548@gsdT',
-    database : 'tokyoDB',
-    port : '3306'
+   host: process.env.DB_HOST,
+    user: process.env.DB_USER,
+    password: process.env.DB_PASSWORD,
+    database: process.env.DB_DATABASE,
+    PORT: process.env.DB_PORT
 
   });
   
